@@ -1,0 +1,141 @@
+ul,
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.write_main {
+
+    width: 100%;
+    position: relative;
+
+    .img {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 85%;
+
+        img {
+            width: 30%;
+        }
+
+        a {
+            color: white;
+            padding: 10px 165px;
+            margin: 0 auto;
+            border: 1px solid #FF9359;
+            background-color: #FF9359;
+
+        }
+    }
+
+    .select {
+
+        padding: 10px 0;
+
+        >div {
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        >ul {
+            margin: 0 auto;
+            width: 90%;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                >button {
+                    border-radius: 20px;
+                    padding: 10px 15px;
+                    border: 0;
+                    color: #656565;
+                    background-color: #FFCBAF;
+                }
+
+                .select_item.active {
+                    color: white;
+                    background-color: #F45852;
+                }
+            }
+        }
+    }
+
+    div {
+        width: 100%;
+        margin-top: 20px;
+
+        .form {
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+
+            input {
+                margin-bottom: 10px;
+                border: none;
+
+                &:focus {
+                    outline: 2px solid #FF9359;
+
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+
+            }
+
+            .title {
+                height: 3.25em;
+            }
+
+            textarea {
+                height: 20.25em;
+                border: none;
+
+                &:focus {
+                    outline: 2px solid #FF9359;
+
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+            }
+
+            .file {
+                margin: 20px 0;
+                color: #FF9359;
+                vertical-align: middle;
+
+                &::file-selector-button {
+                    width: 100px;
+                    height: 30px;
+                    background: #FF9359;
+                    border: none;
+                    border-radius: 20px;
+                }
+            }
+
+            button {
+                border: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: #FF9359;
+                bottom: 20px;
+                right: 20px;
+                box-shadow: 0 4px 5px gray;
+
+            }
+        }
+    }
+}

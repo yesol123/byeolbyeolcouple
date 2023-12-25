@@ -1,0 +1,57 @@
+.home {
+  max-width: 480px;
+  background-color: #FFDF8C;
+  height: 100vh;
+}
+.home p {
+  display: flex;
+  color: #F45852;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+.home p .line {
+  border-bottom: 3px solid;
+  width: 150px;
+  color: #F45852;
+}
+.home .m-log {
+  background-color: #FFDF8C;
+  position: relative;
+  margin: 50px 120px 0px;
+}
+.home .login {
+  padding: 20px;
+}
+.home .login form p {
+  margin: 50px 10px;
+}
+.home .login form p input {
+  width: 400px;
+  padding: 20px;
+  border: none;
+}
+.home .login form p .submit {
+  width: 445px;
+  padding: 20px;
+  background-color: #FF9359;
+  border: none;
+}
+.home .login form button {
+  margin: 0px 10px;
+  width: 402px;
+  padding: 20px;
+  background-color: #F45852;
+  border: none;
+  font-family: "Cafe24Ssurround";
+  font-weight: normal;
+}
+.home .footer {
+  position: absolute;
+  bottom: 50px;
+  margin: 0 15px;
+}
+.home .footer a {
+  color: #F45852;
+  margin: 0 20px;
+}

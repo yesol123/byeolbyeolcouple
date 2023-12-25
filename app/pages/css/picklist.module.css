@@ -1,0 +1,36 @@
+.home {
+  max-width: 480px;
+  background-color: #FFDF8C;
+}
+.home > a {
+  list-style: none;
+}
+.home .cardtitle {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.2rem;
+}
+.home .cardalign {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  width: 400px;
+}
+.home .card {
+  width: 46%;
+  margin: 2%;
+  height: 230px;
+  text-align: center;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #FF9359;
+}
+.home .card > img {
+  width: 80%;
+  margin-top: 30px;
+}
+.home .loading {
+  width: 150px;
+  margin: auto;
+}

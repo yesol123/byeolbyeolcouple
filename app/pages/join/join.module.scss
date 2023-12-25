@@ -1,0 +1,86 @@
+.j_home{
+    padding: 25px 50px 50px ;
+    h2{
+        margin: 0 0 5px;
+    }
+    
+    .idcheck{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 15px;
+        }
+        .check{
+            font-size: 15px;
+            background: none;
+            border: none;
+        }
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        .gender{
+            margin-bottom: 20px;
+        }
+        .time{
+            padding: 15px;
+            margin:5px 0;
+            border: none;
+            color: #656565;
+        }
+        .label{
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            color: #656565;
+            label{
+                font-size: 1rem;
+            }
+            #male{
+                margin: 10px;
+            }
+            #female{
+                margin: 10px;
+            }
+            .check{
+                margin: 10px;
+            }
+        }
+        input{
+            border: none;
+            padding: 10px;
+            margin: 5px 0;
+            display: flex;
+        }
+
+        .privacy{
+            border: 1px solid;
+            padding: 4px;
+            height: 70px;
+            overflow-y:scroll;
+            margin-top: 10px;
+            .p_text{
+                margin: 0;
+                white-space: pre-wrap;
+                font-size: 0.9rem;
+            }
+        }
+        .agree{
+            display: flex;
+            margin: 10px 0;
+            .txt{
+                margin-right: 10px;
+            }
+        }
+        
+        .f_join{
+            padding: 20px;
+            border: none;
+            background-color: #F45852;
+        }
+        .foot{
+            padding: 0 0 10px 50px;
+        }
+    }
+}

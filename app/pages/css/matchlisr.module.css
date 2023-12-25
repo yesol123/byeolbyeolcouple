@@ -1,0 +1,84 @@
+.loading {
+  margin: auto;
+  width: 150px;
+}
+.matchlist {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.matchlist > p {
+  margin: 0;
+}
+.matchlist > h2 {
+  margin: 0;
+  padding: 40px 0;
+  font-size: 20px;
+  text-align: center;
+}
+.matchlist .swiper {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.matchlist .swiper .swiper_slide {
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 0 25px 0;
+}
+.matchlist .swiper .swiper_slide .slide_content > figure {
+  width: 30%;
+  margin: 10px auto 0px;
+}
+.matchlist .swiper .swiper_slide .slide_content > figure > img {
+  width: 100%;
+}
+.matchlist .swiper .swiper_slide .slide_content > h2 {
+  margin: 10px auto 10px;
+}
+.matchlist .swiper .swiper_slide .slide_content > p {
+  width: 90%;
+  margin: 5px 0;
+}
+.matchlist .swiper .swiper_slide .slide_content > p > span {
+  margin-left: 20px;
+}
+.matchlist .swiper .swiper_slide .slide_content .match_fortune {
+  width: 65%;
+}
+.matchlist .swiper .swiper_slide .match_button {
+  margin: 60px auto 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.matchlist .swiper .swiper_slide .match_button > .postbtn {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: #F45852;
+  color: white;
+}
+.matchlist .swiper .swiper_slide .match_button > .postbtn.on {
+  display: none;
+}
+.matchlist .swiper .swiper_slide .match_button > .actbtn {
+  display: none;
+}
+.matchlist .swiper .swiper_slide .match_button > .actbtn.on {
+  justify-content: center;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: #453d3c;
+  color: white;
+  display: flex;
+}

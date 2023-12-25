@@ -1,0 +1,154 @@
+ul,
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.board_main {
+    position: relative;
+    width: 100%;
+
+    .board_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        width: 100%;
+
+        .board_main_buttons {
+            width: 85%;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+
+            >li {
+                border: 2px solid #FF9359;
+
+                .navibutton {
+                    border: 2px solid #FF9359;
+                    padding: 10px 70px;
+                    border: 0;
+                    background: none;
+                }
+
+                .navibutton.active {
+                    background-color: #FF9359;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .board {
+        margin-top: 30px;
+
+        .ul1 {
+            width: 85%;
+            margin: 0 auto;
+
+            >li {
+
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                border-bottom: 1px solid #656565;
+                margin: 0 auto;
+
+                p {
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+
+    .select {
+        margin-top: 20px;
+        width: 100%;
+
+        >ul {
+            margin: 0 auto;
+            width: 85%;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                >button {
+                    cursor: pointer;
+                    border-radius: 20px;
+                    padding: 10px 15px;
+                    border: 0;
+                    color: #656565;
+                    background-color: #FFCBAF;
+                }
+
+                .select_item.active {
+                    color: white;
+                    background-color: #F45852;
+                }
+            }
+        }
+    }
+
+    .community {
+        margin-top: 30px;
+
+        .ul2 {
+            width: 85%;
+            margin: 0 auto;
+
+            li {
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                border-bottom: 1px solid #656565;
+
+                p {
+                    margin: 5px 0;
+                    >span {}
+                }
+
+                p:nth-of-type(2) {
+                    span {
+                        float: right;
+                        position: relative;
+
+                        &::before {
+                            top: 3px;
+                            right: 30px;
+                            position: absolute;
+                            content: '';
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            background: url('../../public/imges/icon_heart.png') no-repeat;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .write_button {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #FF9359;
+        bottom: 20px;
+        right: 20px;
+        box-shadow: 0 4px 5px gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: white;
+        }
+    }
+}

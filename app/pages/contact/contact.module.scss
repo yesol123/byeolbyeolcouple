@@ -1,0 +1,49 @@
+.home{
+    max-width: 480px;
+    background-color: #FFDF8C;
+   
+    .cardtitle{
+        padding: 30px 0 40px 50px ;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    
+    .card{
+        width: 80%; 
+        margin: 0 auto;
+        height: 280px;
+        text-align: center;
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 0 0 10px #FF9359;
+        
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        padding: 5%;
+        >img{
+            margin-top: 10px;
+            width: 40%;
+        }
+        .heart{
+            width: 20%;
+            height: 70px;
+        }
+    }
+    .matchs{
+        width: 80%;
+        background-color: #F45852;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 3px;
+        color: white;
+    }
+    
+    .warning{
+        font-size: 0.8rem;
+        color: #656565;
+        margin-bottom: 10px;
+    }
+
+}

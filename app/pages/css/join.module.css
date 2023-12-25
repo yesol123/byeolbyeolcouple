@@ -1,0 +1,83 @@
+.j_home {
+  padding: 25px 50px 50px;
+}
+.j_home h2 {
+  margin: 0 0 5px;
+}
+.j_home .idcheck {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.j_home .idcheck p {
+  font-size: 15px;
+}
+.j_home .idcheck .check {
+  font-size: 15px;
+  background: none;
+  border: none;
+}
+.j_home .info {
+  display: flex;
+  flex-direction: column;
+}
+.j_home .info .gender {
+  margin-bottom: 20px;
+}
+.j_home .info .time {
+  padding: 15px;
+  margin: 5px 0;
+  border: none;
+  color: #656565;
+}
+.j_home .info .label {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  color: #656565;
+}
+.j_home .info .label label {
+  font-size: 1rem;
+}
+.j_home .info .label #male {
+  margin: 10px;
+}
+.j_home .info .label #female {
+  margin: 10px;
+}
+.j_home .info .label .check {
+  margin: 10px;
+}
+.j_home .info input {
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+}
+.j_home .info .privacy {
+  border: 1px solid;
+  padding: 4px;
+  height: 70px;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+.j_home .info .privacy .p_text {
+  margin: 0;
+  white-space: pre-wrap;
+  font-size: 0.9rem;
+}
+.j_home .info .agree {
+  display: flex;
+  margin: 10px 0;
+}
+.j_home .info .agree .txt {
+  margin-right: 10px;
+}
+.j_home .info .f_join {
+  padding: 20px;
+  border: none;
+  background-color: #F45852;
+}
+.j_home .info .foot {
+  padding: 0 0 10px 50px;
+}

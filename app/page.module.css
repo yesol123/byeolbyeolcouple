@@ -1,0 +1,61 @@
+.head{
+    padding: 0 50px;
+}
+.h_line{
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+
+.foot{
+    position: fixed;
+    bottom: 60px;
+    padding: 0 0 20px 50px;
+}
+.f_line{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.f_link{
+    position: absolute;
+    bottom: 1px;
+    padding: 18px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #f8eed4;
+}
+.f_a{
+    text-align: start;
+    border: none;
+    /* padding: 10px; */
+    background: none;
+    /* border-radius: 10px; */
+    /* margin-right: 10px; */
+    margin-top: 15px;
+    text-align: center;
+}
+.out{
+    border: none;
+    background: none;
+    margin-top: 15px;
+}
+.hidden{
+    /* display: none; */
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+.column .activeR{
+    color: #F45852;
+}
+.f_svg{
+    margin-left: 19px;
+}

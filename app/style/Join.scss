@@ -1,0 +1,54 @@
+.j-home{
+    padding: 25px 50px 50px ;
+    h2{
+        margin: 0 0 5px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        .gender{
+            margin-bottom: 20px;
+        }
+        .time{
+            padding: 5px;
+            margin:5px 0;
+            font-size: 1rem;
+            border: none;
+            color: #656565;
+        }
+        .label{
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            color: #656565;
+            label{
+                font-size: 1rem;
+            }
+            #male{
+                margin: 10px;
+            }
+            #female{
+                margin: 10px;
+            }
+        }
+        input{
+            border: none;
+            padding: 5px;
+            margin: 5px 0;
+            display: flex;
+            font-size: 1rem;
+        }
+        .f-join{
+            padding: 20px;
+            margin-top: 250px;
+            border: none;
+            background-color: #F45852;
+        }
+    }
+}
+.foot{
+    padding: 0 53px;
+}
+.f-link{
+    display: none;
+}

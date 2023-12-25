@@ -1,0 +1,222 @@
+.select {
+  margin: 10px auto;
+  width: 100%;
+
+  > ul {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      > button {
+        cursor: pointer;
+        border-radius: 20px;
+        padding: 10px 15px;
+        border: 0;
+        color: #656565;
+        background-color: #ffcbaf;
+      }
+
+      .select_item.active {
+        color: white;
+        background-color: #f45852;
+      }
+    }
+  }
+}
+
+.community {
+  margin-top: 10px;
+
+  .ul2 {
+    width: 85%;
+    margin: 0 auto;
+    overflow: auto;
+    max-height: 420px;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+      background: #ffffff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 3.5px;
+      background-color: #ffcbaf;
+
+      &:hover {
+        background-color: #f45852;
+      }
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #ffffff;
+    }
+
+    li {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid #656565;
+      .boardImg{
+        width: 50%;
+        margin-top: 10px;
+      }
+      .p_flex {
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+        
+        > span {
+          margin-right: 15px;
+        }
+
+      }
+
+      p:nth-of-type(2) {
+        span {
+          float: right;
+          position: relative;
+
+          &::before {
+            top: 3px;
+            right: 30px;
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url("../../../public/imges/icon_heart.png") no-repeat;
+          }
+        }
+      }
+
+      .div_flex {
+        gap: 5px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        p {
+          margin-right: 3px;
+        }
+        button {
+          border: 0;
+          background: none;
+          padding: 1px 2px;
+        }
+        span {
+          display: flex;
+          align-items: stretch;
+          justify-content: center;
+          gap: 5px;
+
+          button {
+            border: 0;
+            background: none;
+
+            .displaynone {
+              display: none;
+            }
+          }
+
+          button.active {
+            .displayyes {
+              display: none;
+            }
+
+            .displaynone {
+              display: block;
+            }
+          }
+        }
+      }
+
+      .reply_div {
+        display: none;
+        background: #FFE8AE;
+        border-radius: 20px;
+        padding: 20px 10px;
+        >ul{
+          li{
+            margin-bottom: 14px;
+            >p{
+              width: 100%;
+              margin-bottom: 10px;
+              font-size: 14px;
+              .reply_user_id{
+                border-radius: 5px;
+                background: #ffd261;
+                padding: 3px 5px;
+                font-size: 14px;
+              }
+            }
+            
+            .reply_contents{
+              margin-bottom: 11px;
+              
+            }
+          }
+        }
+        > form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 10px;
+        
+          p {
+            width: 100%;
+            text-align: center;
+          }
+          textarea {
+            width: 90%;
+            margin: 0 auto;
+            border: none;
+            resize: none;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            padding: 10px 5px
+          }
+        }
+        .contents_button {
+          width: 90%;
+          border: 1px solid #f45852;
+          border-radius: 20px;
+          padding: 5px 25px;
+          background-color: #f45852;
+          color: #ffffff;
+        }
+      }
+      .reply_div.active {
+        display: block;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+    button.active {
+      color: #f45852;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: #ffdf8c;
+      color: #656565;
+      border: 0;
+      border-radius: 20px;
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.head {
+  padding: 0 50px;
+  .h_line {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+.foot {
+  position: fixed;
+  bottom: 0px;
+  padding: 0 53px;
+  .f_line {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  div {
+    .f_line2 {
+      width: 100%;
+      margin-bottom: 90px;
+    }
+    .f_link {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      padding: 10px 0px 5px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      background-color: #f8eed4;
+      .f_a {
+        text-align: start;
+        border: none;
+        /* padding: 10px; */
+        background: none;
+        /* border-radius: 10px; */
+        /* margin-right: 10px; */
+        margin-top: 15px;
+        text-align: center;
+      }
+      &.active {
+        color: #f45852;
+      }
+
+      .out {
+        border: none;
+        background: none;
+        margin-top: 15px;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        text-align: center;
+        margin:0 7px;
+        align-items: center;
+      }
+
+      .column_matchlist,
+      .column_myfortune,
+      .column_picklist,
+      .column_community {
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        margin:0 7px;
+        text-align: center;
+        align-items: center;
+        button {
+          color: #f45852;
+        }
+        .f_svg1 {
+          path {
+            stroke: #f45852;
+          }
+        }
+        .f_svg2 {
+          path {
+            fill: #f45852;
+          }
+        }
+      }
+      .column_myfortune {
+        path:nth-child(2) {
+          fill: #f45852;
+        }
+      }
+    }
+  }
+}

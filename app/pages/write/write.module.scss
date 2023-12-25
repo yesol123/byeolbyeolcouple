@@ -1,0 +1,139 @@
+.write_main {
+  width: 100%;
+  background-color: #ffdf8c;
+  position: relative;
+
+  .img {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+    img {
+      width: 30%;
+    }
+    a {
+      color: white;
+      padding: 10px 165px;
+      margin: 0 auto;
+      border: 1px solid #ff9359;
+      background-color: #ff9359;
+    }
+  }
+
+  .div1 {
+    width: 100%;
+    margin-top: 20px;
+    >div{ width: 80%;
+      margin: 15px auto;
+
+
+    }
+    .div2 {
+      width: 85%;
+      margin: 10px auto;
+    }
+
+    .form {
+      img{ width: 100px;
+      margin: 0 100px}
+      .select {
+        padding: 10px 0;
+        > ul {
+          margin: 0 auto;
+          width: 100%;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+
+          li {
+            margin-bottom: 20px;
+            .select_item {
+              cursor: pointer;
+              border-radius: 20px;
+              padding: 10px 14px;
+              border: 0;
+              color: #656565;
+              background-color: #ffcbaf;
+              .select_input {
+                display: none;
+              }
+            }
+            .select_item.active {
+              color: white;
+              background-color: #f45852;
+            }
+          }
+        }
+      }
+
+      width: 85%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+
+      input {
+        margin-bottom: 10px;
+        border: none;
+
+        &:focus {
+          outline: 2px solid #ff9359;
+
+          &::placeholder {
+            color: transparent;
+          }
+        }
+      }
+
+      .title {
+        height: 3.25em;
+      }
+
+      textarea {
+        height: 15em;
+        border: none;
+
+        &:focus {
+          outline: 2px solid #ff9359;
+
+          &::placeholder {
+            color: transparent;
+          }
+        }
+      }
+
+      .file {
+        margin: 20px 0;
+        color: #ff9359;
+        vertical-align: middle;
+
+        &::file-selector-button {
+          font-family: "TAEBAEKmilkyway";
+          font-weight: 900;
+          width: 100px;
+          height: 30px;
+          background: #ff9359;
+          border: none;
+          border-radius: 20px;
+        }
+      }
+
+      button {
+        cursor: pointer;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #ff9359;
+        bottom: 20px;
+        right: 20px;
+        box-shadow: 0 4px 5px gray;
+      }
+    }
+  }
+}

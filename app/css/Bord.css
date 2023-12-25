@@ -1,0 +1,126 @@
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+.board_main {
+  position: relative;
+  width: 100%;
+}
+.board_main .board_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  width: 100%;
+}
+.board_main .board_section .board_main_buttons {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.board_main .board_section .board_main_buttons > li {
+  border: 2px solid #FF9359;
+}
+.board_main .board_section .board_main_buttons > li .navibutton {
+  border: 2px solid #FF9359;
+  padding: 10px 70px;
+  border: 0;
+  background: none;
+}
+.board_main .board_section .board_main_buttons > li .navibutton.active {
+  background-color: #FF9359;
+  color: white;
+}
+.board_main .board {
+  margin-top: 30px;
+}
+.board_main .board .ul1 {
+  width: 85%;
+  margin: 0 auto;
+}
+.board_main .board .ul1 > li {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #656565;
+  margin: 0 auto;
+}
+.board_main .board .ul1 > li p {
+  margin: 5px 0;
+}
+.board_main .select {
+  margin-top: 20px;
+  width: 100%;
+}
+.board_main .select > ul {
+  margin: 0 auto;
+  width: 85%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.board_main .select > ul li > button {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 0;
+  color: #656565;
+  background-color: #FFCBAF;
+}
+.board_main .select > ul li .select_item.active {
+  color: white;
+  background-color: #F45852;
+}
+.board_main .community {
+  margin-top: 30px;
+}
+.board_main .community .ul2 {
+  width: 85%;
+  margin: 0 auto;
+}
+.board_main .community .ul2 li {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #656565;
+}
+.board_main .community .ul2 li p {
+  margin: 5px 0;
+}
+.board_main .community .ul2 li p:nth-of-type(2) span {
+  float: right;
+  position: relative;
+}
+.board_main .community .ul2 li p:nth-of-type(2) span::before {
+  top: 3px;
+  right: 30px;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../../public/imges/icon_heart.png") no-repeat;
+}
+.board_main .write_button {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FF9359;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 4px 5px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board_main .write_button a {
+  color: white;
+}

@@ -1,0 +1,60 @@
+
+.home{
+    max-width: 480px;
+    background-color: #FFDF8C;
+    height: 100vh;
+    p{
+        display: flex;
+        color:#F45852;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        .line{
+            border-bottom: 3px solid; 
+            width: 150px;
+            color:#F45852
+        }
+    }
+    .m-log{
+        background-color: #FFDF8C;
+        position: relative;
+        margin: 50px 120px 0px;
+    }
+    .login{
+        padding: 20px;
+        form{
+            p{
+                margin: 50px 10px;
+                input{
+                    width: 400px;
+                    padding: 20px;
+                    border: none;
+                }
+                .submit{
+                    width: 445px;
+                    padding: 20px;
+                    background-color: #FF9359;
+                    border: none;
+                }
+            }
+            button{
+                margin: 0px 10px;
+                width: 402px;
+                padding: 20px;
+                background-color: #F45852;
+                border: none;
+                font-family: 'Cafe24Ssurround';
+                font-weight: normal;
+            }
+        }
+    }
+    .footer{
+        position: absolute;
+        bottom: 50px;
+        margin: 0 15px;
+        a{
+            color: #F45852;
+            margin: 0 20px;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.myfortuneWrap {
+  line-height: 1.5;
+  padding: 10px 50px;
+}
+.myfortuneWrap > img {
+  margin: 15px 0 0 60px;
+}
+.myfortuneWrap .title {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  background-color: #FF9359;
+  color: white;
+  padding: 5px;
+}
+.myfortuneWrap .fortune {
+  border: none;
+  border-radius: 3px;
+  height: 220px;
+  overflow-y: scroll;
+  font-size: 1rem;
+  margin: 20px 0;
+  display: flex;
+}
+.myfortuneWrap .fortune > div:nth-of-type(2) {
+  margin-top: 1px;
+}
+.myfortuneWrap .fortune::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+}
+.myfortuneWrap .fortune::-webkit-scrollbar-thumb {
+  /* border-radius: 3.5px; */
+  background-color: #ffcbaf;
+}
+.myfortuneWrap .fortune::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+}
+.myfortuneWrap .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 1.5;
+}
+.myfortuneWrap .row .eleTitle {
+  text-align: center;
+  margin: 0px 0 10px 0;
+}
+.myfortuneWrap .row .ele {
+  width: 80px;
+  box-shadow: 0 0 10px #FF9359;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 3px;
+}

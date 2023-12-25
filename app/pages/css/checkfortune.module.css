@@ -1,0 +1,45 @@
+.container {
+  margin: 200px auto 0;
+  width: 80%;
+}
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.container .nameInput,
+.container .timeInput {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 2;
+  margin-right: 10px;
+  color: #c1c1c1;
+}
+.container p,
+.container .submitButton {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  flex: 1;
+}
+.container .inactive {
+  background-color: #ffcbaf;
+  color: #656565;
+}
+.container .active {
+  background-color: #f45852;
+  color: white;
+}
+.container .submitButton {
+  background-color: #f45852;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  font-size: 16px;
+}
